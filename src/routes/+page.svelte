@@ -17,7 +17,7 @@
 	<Section>
 		<About></About>
 	</Section>
-	<Section height=120>
+	<Section height=150>
 		<Projects/>
 	</Section>
 </div>

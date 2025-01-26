@@ -1,7 +1,14 @@
+<script>
+    import nethackPic from '../images/nethack.png'
+    import scefcoPic from '../images/scefco.png'
+</script>
+
 <div class="projectMain">
-    <h1>PROJECTS</h1>
+    <h1 id="projects">PROJECTS</h1>
     <div class="projectEntry left">
-        <div class="projectImg"></div>
+        <div class="projectImg">
+            <img src={scefcoPic} alt="scefco">
+        </div>
         <div class="projectCaption">
             <h3 class="projectName">SCEFCO</h3>
             <p>
@@ -15,7 +22,9 @@
         </div>
     </div>
     <div class="projectEntry right">
-        <div class="projectImg"></div>
+        <div class="projectImg">
+            <img src={nethackPic} alt="nethack">
+        </div>
         <div class="projectCaption">
             <h3 class="projectName">NetHack</h3>
             <p>
@@ -24,8 +33,8 @@
                 Wi-Fi profiles, retrieving IP addresses, performing network
                 pings, and locating IPs.
             </p>
-            <p>Last Updated: December 2024</p>
-            <p>Tech Stack: Astro JS - Cloudflare Pages</p>
+            <p>Last Updated: March 2022</p>
+            <p>Tech Stack: Python</p>
         </div>
     </div>
 </div>
@@ -34,12 +43,12 @@
     * {
         color: white;
         font-family: "Rajdhani";
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .projectMain {
         width: 60vw;
-        height: 150vh;
+        height: 120vh;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -61,8 +70,11 @@
     }
 
     .projectImg {
-        border: 1px solid rgb(0, 255, 0);
         width: 70%;
+        padding: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .projectCaption {
@@ -71,5 +83,11 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+
+    img {
+        width: 100%;
+        height: fit-content;
+        border: 1px solid white;
     }
 </style>

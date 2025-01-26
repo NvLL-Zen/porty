@@ -57,7 +57,7 @@
 
     .aboutMain {
         width: 60vw;
-        height: 40vh;
+        height: 50vh;
         display: flex;
         flex-direction: row;
     }

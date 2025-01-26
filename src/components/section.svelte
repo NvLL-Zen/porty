@@ -1,4 +1,8 @@
-<div class="section">
+<script>
+    export let height = 100;
+</script>
+
+<div class="section" style="height: {height}vh;">
     <slot>
     
     </slot>
@@ -6,10 +10,14 @@
 
 <style>
     .section {
-        width: 100vw;
-        height: 100vh;
+    
         margin: 0;
         padding: 0;
-        border: 1px solid red;
+        /* border: 1px solid red; */
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 </style>

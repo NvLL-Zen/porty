@@ -76,7 +76,7 @@
 
     .aboutDesc {
         font-weight: 600;
-        font-size: clamp(0.9rem, 1.5vw, 1rem);
+        font-size: 1rem;
     }
 
     .aboutNav {

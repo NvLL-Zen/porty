@@ -9,8 +9,6 @@
 </h3>
 <h3 class="mainBanner">COMPUTER SCIENCE • PORTOFOLIO • COMPUTER SCIENCE • PORTOFOLIO • COMPUTER SCIENCE • PORTOFOLIO • COMPUTER SCIENCE • PORTOFOLIO • COMPUTER SCIENCE • PORTOFOLIO • COMPUTER SCIENCE •
 </h3>
-
-
 </div>
 <style>
     * {
@@ -20,7 +18,7 @@
     .mainBanner {
         width: max-content;
         font-size: 1.5rem;
-        animation: banner 5s linear;
+        animation: banner 7.5s linear;
         animation-iteration-count: infinite;
     }
 

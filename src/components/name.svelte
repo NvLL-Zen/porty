@@ -1,4 +1,4 @@
-<div class="nameContainer">
+<div id="home" class="nameContainer">
     <h1 class="name" id="leftName">
         FAUZAN
     </h1>
@@ -68,5 +68,17 @@
 
     #rightName {
         text-align: right;
+    }
+
+    @media only screen and (max-width: 720px) {
+        #leftName::before, #leftName::after, #rightName::before, #rightName::after {
+            width: 0;
+            height: 0;
+        }
+
+        .name {
+            width: 75vw;
+            font-size: clamp(5rem, 10vw, 10rem);
+        }
     }
 </style>

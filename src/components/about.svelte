@@ -1,6 +1,6 @@
 
-<h1 class="aboutSign">
-    WHOAMI
+<h1 id="about" class="aboutSign">
+    WHO AM I?
 </h1>
 <div class="aboutMain">
     <div class="aboutHalf" id="aboutHalfLeft">
@@ -21,7 +21,7 @@
     </div>
     <div class="aboutHalf" id="aboutHalfRight">
         <h3 class="aboutDesc">
-            Self taught software engineer with an experienced knowledge of Python, and Javascript. 
+            Self taught CS student with an experienced knowledge of Python, and Javascript. 
             I am passionate about computers and technology since i was little, intriguing my curious mind.
         </h3>
         <h3 class="aboutDesc">
@@ -37,22 +37,23 @@
 
 <style>
 
-    * {
+    /* * {
         border: 1px solid red;
-    }
+    } */
 
     a {
         color: white;
+        text-decoration: none;
     }
 
     .aboutSign {
-        font-size: 5rem;
+        font-size: clamp(1.5rem, 10vw, 5rem);
         font-weight: 900;
         padding-bottom: 1%;
         width: 60vw;
         line-height: 100%;
         height: min-content;
-
+        animation: blinking 1.5s linear infinite;
     }
 
     .aboutMain {
@@ -60,6 +61,7 @@
         height: 50vh;
         display: flex;
         flex-direction: row;
+        color: rgb(230, 230, 230);
     }
 
     .aboutHalf {
@@ -96,7 +98,7 @@
     .jobTitle {
         box-sizing: border-box;
         padding: 1%;
-        font-size: clamp(1.5rem, 2vw, 3rem);
+        font-size: clamp(1.5rem, 2.5vw, 5rem);
         font-weight: 700;
     }
 
@@ -107,7 +109,7 @@
 
         .aboutMain {
             width: 80vw;
-            height: 75vh;
+            height: 65vh;
             flex-direction: column;
             justify-content: space-between;
         }
@@ -118,7 +120,11 @@
         }
 
         #aboutHalfLeft {
-            height: 40%;
+            height: 20%;
+        }
+
+        #aboutHalfRight {
+            height: 60%;
         }
 
         .jobTitle {
@@ -134,6 +140,20 @@
         }
 
 
+    }
+
+    @keyframes blinking {
+        0% {
+            opacity: 1;
+        }
+
+        50%  {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 
 

@@ -17,11 +17,11 @@
     }
 
     .name {
-        margin-left: -2.5%;
-        padding-left: 2.5%;
-        padding-right: 2.5%;
+        margin-left: -3%;
+        padding-left: 3%;
+        padding-right: 3%;
         position: relative;
-        font-size: 10rem;
+        font-size: clamp(3rem, 10vw, 10rem);
         font-weight: 500;
         width: 60vw;
     }
@@ -31,8 +31,8 @@
         content: "";
         top: 0;
         left: 0;
-        width: 50px;
-        height: 10px;
+        width: clamp(5px, 5vw, 50px);
+        height: clamp(1px, 5vw, 10px);
         background-color: white;
     }
 
@@ -41,8 +41,8 @@
         content: "";
         top: 0;
         left: 0;
-        width: 10px;
-        height: 50px;
+        width: clamp(1px, 5vw, 10px);
+        height: clamp(5px, 5vw, 50px);
         background-color: white;
     }
 
@@ -51,8 +51,8 @@
         content: "";
         bottom: 0;
         right: 0;
-        width: 10px;
-        height: 50px;
+        width: clamp(1px, 5vw, 10px);
+        height: clamp(5px, 5vw, 50px);
         background-color: white;
     }
 
@@ -61,8 +61,8 @@
         content: "";
         bottom: 0;
         right: 0;
-        width: 50px;
-        height: 10px;
+        width: clamp(5px, 5vw, 50px);
+        height: clamp(1px, 5vw, 10px);
         background-color: white;
     }
 

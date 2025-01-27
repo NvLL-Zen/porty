@@ -66,13 +66,20 @@
         margin: 0;
         /* border: 1px solid red; */
     }
+    .nameContainer{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .name {
         margin-left: -3%;
         padding-left: 3%;
         padding-right: 3%;
         position: relative;
-        font-size: clamp(3rem, 10vw, 10rem);
+        font-size: clamp(3rem, 10vw, 15rem);
         font-weight: 500;
         width: 60vw;
 

@@ -7,15 +7,15 @@
         <h3 class="jobTitle">(Junior) Software Engineer</h3>
         <div class="aboutNav">
             <div>
-                <h3>
+                <h3 class="NavDesc">
                     Web Development
                 </h3>
-                <h3>
+                <h3 class="NavDesc">
                     Data Science
                 </h3>
             </div>
             <div>
-                <h3><a target="_blank" href="https://github.com/nvll-zen">Github ↗</a></h3>
+                <h3 class="NavDesc"><a target="_blank" href="https://github.com/nvll-zen">Github ↗</a></h3>
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
 
     .aboutDesc {
         font-weight: 600;
-        font-size: clamp(0.85rem, 1.5vw, 1.25rem);
+        font-size: clamp(0.85rem, 1.25vw, 1.75rem);
     }
 
     .aboutNav {
@@ -93,6 +93,10 @@
         gap: 5%;
 
         font-weight: 500;
+    }
+
+    .NavDesc {
+        font-size: clamp(0.85rem, 1.25vw, 1.9rem);
     }
 
     .jobTitle {

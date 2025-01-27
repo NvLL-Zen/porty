@@ -57,7 +57,11 @@
     }
 
     p {
-        font-size: clamp(0.85rem, 1.5vw, 1.05rem);
+        font-size: clamp(0.85rem, 1.1vw, 1.25rem);
+    }
+
+    .projectName {
+        font-size: clamp(0.85rem, 1.25vw, 1.9rem);
     }
 
     .projectMain {
@@ -96,7 +100,7 @@
         height: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        gap: 7.5%;
     }
 
     img {

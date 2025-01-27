@@ -4,7 +4,7 @@
 </h1>
 <div class="aboutMain">
     <div class="aboutHalf" id="aboutHalfLeft">
-        <h3 class="jobTitle">(Junior) Software Engineer</h3>
+        <h3 class="jobTitle">(Future) Software Engineer</h3>
         <div class="aboutNav">
             <div>
                 <h3 class="NavDesc">

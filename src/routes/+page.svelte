@@ -22,6 +22,7 @@
 	<ProjectSec>
 		<Projects/>
 	</ProjectSec>
+	<Banner direction="right" message="SAY HI SAY HI SAY HI "></Banner>
 </div>
 
 

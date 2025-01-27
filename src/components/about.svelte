@@ -109,7 +109,7 @@
 
         .aboutMain {
             width: 80vw;
-            height: 65vh;
+            height: 75vh;
             flex-direction: column;
             justify-content: space-between;
         }
@@ -124,7 +124,7 @@
         }
 
         #aboutHalfRight {
-            height: 60%;
+            height: 50%;
         }
 
         .jobTitle {

@@ -1,21 +1,25 @@
 <script>
-    import nethackPic from '../images/nethack.png'
-    import scefcoPic from '../images/scefco.png'
+    import nethackPic from "../images/nethack.png";
+    import scefcoPic from "../images/scefco.png";
+    import { onMount } from 'svelte';
+
 </script>
 
 <div class="projectMain">
     <h1 id="projects">PROJECTS</h1>
     <div class="projectEntry left">
         <div class="projectImg">
-            <img src={scefcoPic} alt="scefco">
+            <a target="_blank" href="https://bit.ly/scefco"
+                ><img src={scefcoPic} alt="scefco" /></a
+            >
         </div>
         <div class="projectCaption">
             <h3 class="projectName">SCEFCO</h3>
             <p>
                 A website that i voluntarily made for my school's annual
                 competition event, it is used as a website to view information
-                about the event, and to sign up for the competitions, 
-                aswell as view the terms & conditions of it. made w/ love :)
+                about the event, and to sign up for the competitions, aswell as
+                view the terms & conditions of it. made w/ love :)
             </p>
             <p>Last Updated: December 2024</p>
             <p>Tech Stack: Astro JS - Cloudflare Pages</p>
@@ -23,7 +27,9 @@
     </div>
     <div class="projectEntry right">
         <div class="projectImg">
-            <img src={nethackPic} alt="nethack">
+            <a target="_blank" href="https://github.com/nvll-zen/-nethack"
+                ><img src={nethackPic} alt="nethack" /></a
+            >
         </div>
         <div class="projectCaption">
             <h3 class="projectName">NetHack</h3>
@@ -40,15 +46,23 @@
 </div>
 
 <style>
+    :root {
+        --projectHeight: 50vh;
+        --projectMain_Height: 120vh;
+    }
     * {
         color: white;
         font-family: "Rajdhani";
         /* border: 1px solid red; */
     }
 
+    p {
+        font-size: clamp(0.85rem, 1.5vw, 1.05rem);
+    }
+
     .projectMain {
         width: 60vw;
-        height: 120vh;
+        height: var(--projectMain_Height);
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -57,8 +71,9 @@
 
     .projectEntry {
         display: flex;
-        height: 50vh;
+        height: var(--projectHeight);
         width: 100%;
+        gap: 2.5%;
     }
 
     .left {
@@ -71,7 +86,6 @@
 
     .projectImg {
         width: 70%;
-        padding: 1%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -89,5 +103,45 @@
         width: 100%;
         height: fit-content;
         border: 1px solid white;
+        transition: 0.5s;
+    }
+
+    img:hover {
+        scale: 1.05;
+    }
+
+    #projects {
+        font-size: clamp(1.5rem, 10vw, 5rem);
+    }
+
+    @media only screen and (max-width: 720px) {
+        :root {
+        --projectHeight: 50vh;
+        --projectMain_Height: 120vh;
+        }
+        .projectMain {
+            width: 80vw;
+        }
+        .projectImg {
+            width: 100%;
+            height: 40%;
+        }
+        .projectCaption {
+            width: 100%;
+            height: 45%;
+        }
+        .projectEntry {
+            gap: 5%;
+        }
+        img {
+            width: 100%;
+        }
+        .left {
+            flex-direction: column;
+        }
+
+        .right {
+            flex-direction: column;
+        }
     }
 </style>

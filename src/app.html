@@ -40,6 +40,41 @@
 		padding: 0;
 	}
 
+	.popIn {
+		animation: pop-in 1s linear;
+		animation-timeline: view();
+		animation-range: entry 0;
+	}
+
+	.fadeIn {
+		animation: fade-in 1s linear;
+		animation-timeline: view();
+
+	}
+
+
+	@keyframes pop-in {
+		from {
+			scale: 0.75;
+			opacity: 0;
+		}
+
+		to {
+			scale: 1;
+			opacity: 1;
+		}
+	}
+
+	@keyframes fade-in {
+		from {
+			opacity: 0;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
 	::-webkit-scrollbar {
 		width: 10px;
 	}

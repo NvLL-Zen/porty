@@ -1,5 +1,7 @@
 <script>
 	import Section from "../components/section.svelte";
+	import Footer from "../components/footer.svelte";
+	import Contact from "../components/contact.svelte";
 	import ProjectSec from "../components/projectSec.svelte";
 	import Projects from "../components/projects.svelte";
 	import Banner from "../components/banner.svelte";
@@ -22,7 +24,9 @@
 	<ProjectSec>
 		<Projects/>
 	</ProjectSec>
-	<Banner direction="right" message="SAY HI SAY HI SAY HI "></Banner>
+	<Banner direction="right" message="LET'S CONNECT LET'S CONNECT "></Banner>
+	<Contact />
+	<Footer></Footer>
 </div>
 
 

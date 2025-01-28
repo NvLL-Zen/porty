@@ -1,6 +1,7 @@
 <script>
     import nethackPic from "../images/nethack.png";
     import scefcoPic from "../images/scefco.png";
+    import '../styles/anim.css'
     import { onMount } from 'svelte';
 
 </script>
@@ -10,18 +11,18 @@
     <div class="projectEntry left">
         <div class="projectImg">
             <a target="_blank" href="https://bit.ly/scefco"
-                ><img src={scefcoPic} alt="scefco" /></a
+                ><img class="popIn" src={scefcoPic} alt="scefco" /></a
             >
         </div>
         <div class="projectCaption">
             <h3 class="projectName">SCEFCO</h3>
-            <p>
+            <p class="pop-in">
                 A website that i voluntarily made for my school's annual
                 competition event, it is used as a website to view information
                 about the event, and to sign up for the competitions, aswell as
                 view the terms & conditions of it. made w/ love :)
             </p>
-            <p>Last Updated: December 2024</p>
+            <p class="fade-in">Last Updated: December 2024</p>
             <p>Tech Stack: Astro JS - Cloudflare Pages</p>
         </div>
     </div>

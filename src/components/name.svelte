@@ -83,19 +83,17 @@
         font-weight: 500;
         width: 60vw;
 
+        text-rendering: geometricPrecision;
+        text-shadow: 0px 0px 15px white;
         animation: inspand 1s ease-out forwards;
     }
 
     @keyframes inspand {
         from {
-            filter: brightness(0);
-            width: 30vw;
+            opacity: 0;
+            width: 15%;
         }
 
-        to {
-            filter: brightness(1);
-            width: 60vw;
-        }
     }
 
     #leftName::before {

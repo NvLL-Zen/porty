@@ -103,6 +103,7 @@
         box-sizing: border-box;
         padding: 1%;
         font-size: clamp(1.5rem, 2.5vw, 5rem);
+        text-shadow: 0px 0px 4px white;
         font-weight: 700;
     }
 

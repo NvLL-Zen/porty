@@ -4,7 +4,6 @@
     export let direction = "left"
     
     let bannerMessage = message+message+message+message+message+message+message+message+message
-    console.log(bannerMessage)
 </script>
 <div class="bannerContainer">
 {#if direction === "left"}

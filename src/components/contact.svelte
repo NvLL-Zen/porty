@@ -61,13 +61,13 @@
     a {
         color: white;
         text-decoration: none;
-        font-size: clamp(0.85rem, 1.4vw, 1.6rem);
+        font-size: clamp(0.85rem, 1.5vw, 2rem);
         font-weight: 700;
         
         padding: 2%;
         width: 90%;
 
-        border: 1px solid white;
+        border: 2.5px solid white;
         border-radius: 10px;
         
         display: flex;
@@ -75,6 +75,12 @@
         justify-content:left;
         align-items: center;
         gap: 5%;
+
+        transition: all 0.15s ease;
+    }
+
+    a:hover {
+        transform: scale(1.05);
     }
 
     img {

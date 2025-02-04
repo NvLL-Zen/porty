@@ -89,7 +89,7 @@
 
     @keyframes findmehere {
         0% {
-            letter-spacing: 25px;
+            letter-spacing: 1vw;
         }
 
         25% {
@@ -101,7 +101,7 @@
         }
 
         100% {
-            letter-spacing: 25px;
+            letter-spacing: 1vw;
         }
     }
 

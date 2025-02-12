@@ -59,6 +59,7 @@
 
     p {
         font-size: clamp(0.85rem, 1.1vw, 1.25rem);
+        font-weight: 600;
     }
 
     .projectName {

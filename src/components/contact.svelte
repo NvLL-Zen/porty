@@ -18,8 +18,8 @@
                 href="https://github.com/nvll-zen"
                 ><img src={github} alt="" />NvLL-Zen</a
             >
-                <a target="_blank" href="https://instagram.com/fauzanrizky.n"
-                ><img src={instagram} alt="" />fauzanrizky.n</a
+                <a target="_blank" href="https://instagram.com/v.zenriel"
+                ><img src={instagram} alt="" />v.zenriel</a
             >
             <a
                 target="_blank"
@@ -39,8 +39,8 @@
             
             </div>
             <div class="halfHorizontal">
-                <a target="_blank" href="https://instagram.com/fauzanrizky.n"
-                ><img src={instagram} alt="" />fauzanrizky.n</a
+                <a target="_blank" href="https://instagram.com/v.zenriel"
+                ><img src={instagram} alt="" />v.zenriel</a
             >
             <a
                 target="_blank"

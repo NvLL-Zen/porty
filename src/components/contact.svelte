@@ -24,7 +24,7 @@
             <a
                 target="_blank"
                 href="https://open.spotify.com/user/31bepk3hehswxyz35dizjhpz6344"
-                ><img src={spotify} alt="" />Zenriel V.</a
+                ><img src={spotify} alt="" />全龍</a
             > 
             </div>
             <div class="halfHorizontal">
@@ -45,7 +45,7 @@
             <a
                 target="_blank"
                 href="https://open.spotify.com/user/31bepk3hehswxyz35dizjhpz6344"
-                ><img src={spotify} alt="" />Zenriel V.</a
+                ><img src={spotify} alt="" />全龍</a
             >   
             </div>
             

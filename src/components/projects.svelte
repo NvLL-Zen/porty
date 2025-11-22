@@ -15,7 +15,7 @@
             >
         </div>
         <div class="projectCaption">
-            <h3 class="projectName">SCEFCO</h3>
+            <h3 class="projectName">SCEFCO'24</h3>
             <p class="pop-in">
                 A website that i voluntarily made for my school's annual
                 competition event, it is used as a website to view information

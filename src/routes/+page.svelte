@@ -1,4 +1,5 @@
 <script>
+	import Navbar from "../components/navbar.svelte";
 	import Section from "../components/section.svelte";
 	import Footer from "../components/footer.svelte";
 	import Contact from "../components/contact.svelte";
@@ -14,6 +15,7 @@
 
 <div class="mainApp">
 	<!-- <Navbar /> -->
+	<Navbar></Navbar>
 	<Section>
 		<Name></Name>
 	</Section>

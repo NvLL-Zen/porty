@@ -1,50 +1,19 @@
-<!doctype html>
-<html lang="en">
+<script>
+    import TranslateButton from "./translateButton.svelte";
+</script>
 
-<head>
-	<meta charset="utf-8" />
-	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
-		rel="stylesheet">
-	%sveltekit.head%
-</head>
-
-<body data-sveltekit-preload-data="hover">
-	
-	<div style="display: contents">%sveltekit.body%</div>
-</body>
+<div id="navbarContainer">
+		<div id="homeNav" class="nvlContainer"><a id="home" class="navLinks" href=".">Home</a></div>
+		<div class="nvlContainer"><a class="navLinks" href="#about">About</a></div>
+		<div class="nvlContainer"><a class="navLinks" href="#projects">Projects</a></div>
+		<div class="nvlContainer"><a class="navLinks" href="#contact">Contact</a></div>
+		<TranslateButton></TranslateButton>
+</div>
 
 <style>
-	html {
-		font-size: 16px;
-		scroll-behavior: smooth;
-	}
-
 	* {
 		margin: 0;
 		/* border: 1px solid red; */
-	}
-
-	body {
-		overflow-x: hidden;
-		scroll-behavior: smooth;
-		margin: 0;
-		padding: 0;
-	}
-
-	.popIn {
-		animation: pop-in 1s linear;
-		animation-timeline: view();
-		animation-range: entry 0;
-	}
-
-	.fadeIn {
-		animation: fade-in 1s linear;
-		animation-timeline: view();
-
 	}
 
 
@@ -91,7 +60,8 @@
 
 	#navbarContainer {
 
-		position: sticky;
+		position: fixed;
+        right: 0;
 		top: 0;
 		z-index: 10;
 		width: 100%;
@@ -140,5 +110,3 @@
 		margin-top: 2.5%;
 	}
 </style>
-
-</html>

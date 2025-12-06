@@ -18,13 +18,13 @@
                 href="https://github.com/nvll-zen"
                 ><img src={github} alt="" />NvLL-Zen</a
             >
-                <a target="_blank" href="https://instagram.com/zenrieru_"
-                ><img src={instagram} alt="" />zenrieru_</a
+                <a target="_blank" href="https://instagram.com/fauzanrizkyn_"
+                ><img src={instagram} alt="" />fauzanrizkyn_</a
             >
             <a
                 target="_blank"
                 href="https://open.spotify.com/user/31bepk3hehswxyz35dizjhpz6344"
-                ><img src={spotify} alt="" />全龍</a
+                ><img src={spotify} alt="" />刘发谅</a
             > 
             </div>
             <div class="halfHorizontal">
@@ -39,13 +39,13 @@
             
             </div>
             <div class="halfHorizontal">
-                <a target="_blank" href="https://instagram.com/zenrieru_"
-                ><img src={instagram} alt="" />zenrieru_</a
+                <a target="_blank" href="https://instagram.com/fauzanrizkyn_"
+                ><img src={instagram} alt="" />fauzanrizkyn_</a
             >
             <a
                 target="_blank"
                 href="https://open.spotify.com/user/31bepk3hehswxyz35dizjhpz6344"
-                ><img src={spotify} alt="" />全龍</a
+                ><img src={spotify} alt="" />刘发谅</a
             >   
             </div>
             

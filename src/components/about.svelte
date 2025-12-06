@@ -28,7 +28,7 @@
             Currently i'm a highschool student in Indonesia, still developing and sharpening my skills. Trying to balance
             between life and my hobby, aswell as preparing into college
         </h3>
-        <h3 class="aboutDesc">I am fluent in both Bahasa Indonesia and English, i'm also learning Japanese</h3>
+        <h3 class="aboutDesc">I am fluent in both Bahasa Indonesia and English, i'm also learning Mandarin</h3>
         <h3 class="aboutDesc">
             Feel free to reach out to me and say hello :)
         </h3>
